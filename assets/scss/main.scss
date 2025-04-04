@@ -1,8 +1,11 @@
 @import "./base";
 
+@import "./utils/variables";
+
 @import "./components/about-card";
 @import "./components/hero-card";
 
 @import "./layouts/about-section";
+@import "./layouts/container";
 @import "./layouts/header";
 @import "./layouts/hero-section";

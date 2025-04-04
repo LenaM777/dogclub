@@ -1,12 +1,27 @@
 .hero-section {
-    padding: 120px 0 60px;
-    display: flex;
-    flex-direction: row;
+    padding: 32px 0 20px;
+
+    @media screen and (min-width: $bp-tablet) {
+        padding: 120px 0 60px; 
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+
+    @media screen and (min-width: $bp-tablet) {
+        
+        flex-direction: row;
+    }
+    }
     
 
     &__info {
-        padding: 60px 0 170px;
-        max-width: 635px;
+
+        @media screen and (min-width: $bp-tablet) {
+            max-width: 635px;
+        }
     }
     
 }
+

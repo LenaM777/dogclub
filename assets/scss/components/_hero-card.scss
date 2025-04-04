@@ -1,22 +1,42 @@
 .hero-card {
     position: relative;
-    height: 600px;
+
+    @media screen and (min-width: $bp-tablet) {
+        height: 600px;
+    }
 
     &__mob {
-        display: none;
+        display: block;
+        position: absolute;
+       bottom: -50px;
+        left: 14px;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: none;
+        }
     }
 
     &__bcg {
-        position: absolute;
-        top: 0;
-        left: -186px;
+        display: none;
+        
+        @media screen and (min-width: $bp-tablet) {
+            position: absolute;
+            display: block;
+            top: 0;
+            left: -186px;
+        }
 
     }
 
     &__dog {
-        position: absolute;
-        top: 84px;
-        left: 62px;
-        background-image:  url(/assets/images/hero-paw-white.png), url(/assets/images/bcg-hero-yellow.png);
+        display: none;
+        
+        @media screen and (min-width: $bp-tablet) {
+            display: block;
+            position: absolute;
+            top: 84px;
+            left: 62px;
+            background-image:  url(/assets/images/hero-paw-white.png), url(/assets/images/bcg-hero-yellow.png);
+        }
     }
 }
