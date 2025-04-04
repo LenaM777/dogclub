@@ -1,0 +1,22 @@
+.hero-card {
+    position: relative;
+    height: 600px;
+
+    &__mob {
+        display: none;
+    }
+
+    &__bcg {
+        position: absolute;
+        top: 0;
+        left: -186px;
+
+    }
+
+    &__dog {
+        position: absolute;
+        top: 84px;
+        left: 62px;
+        background-image:  url(/assets/images/hero-paw-white.png), url(/assets/images/bcg-hero-yellow.png);
+    }
+}

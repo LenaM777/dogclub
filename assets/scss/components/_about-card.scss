@@ -1,0 +1,39 @@
+.about-card {
+   padding: 40px 0;
+    position: relative;
+    height: 700px;
+
+    
+
+    &__bcg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &__dog {
+        position: absolute;
+        top: 150px;
+        left: 100px;
+
+    }
+
+    &__video {
+        position: absolute;
+        width: 164px;
+        height: 124px;
+        top: 142px;
+        left: 440px;
+        z-index: 1;
+        background-image: url(/assets/images/video-bcg-desk.png);
+        background-repeat: no-repeat;
+    }
+
+
+
+    
+
+    
+    
+}
