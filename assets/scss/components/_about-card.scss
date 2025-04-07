@@ -1,6 +1,8 @@
 .about-card {
     position: relative;
+    display: block;
     width: auto;
+   
 
     @media screen and (min-width: $bp-tablet) {
         height: 620px;
