@@ -2,4 +2,4 @@
 
 "Dog Club"
 
-`![mob design](./images/custom-sindy.jpg)` **mob design**
+`![mob design](/images/custom-sindy.jpg)` **mob design**
