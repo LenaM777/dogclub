@@ -2,4 +2,4 @@
 
 "Dog Club"
 
-`![Alt Text](assets/images/custom-tom.jpg)` **Alt Text**
+`![mob design](./assets/images/custom-anna.jpg)` **mob design**
